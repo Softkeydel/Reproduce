@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#FFC466</color>
+
+    <color name="accent">@color/primary</color>
+    <color name="theme">#FFC466</color>
+
+</resources>
