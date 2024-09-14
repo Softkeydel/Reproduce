@@ -4,33 +4,6 @@
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
-
-        <item name="android:datePickerDialogTheme">@style/datepicker</item>
-        <item name="android:timePickerDialogTheme">@style/datepicker</item>
     </style>
 
-
-    <style name="datepicker" parent="android:Theme.Material.Light.Dialog">
-        <item name="android:colorPrimary">@color/theme</item>
-        <item name="android:colorPrimaryDark">@color/theme</item>
-        <item name="android:colorAccent">@color/theme</item>
-<!--        <item name="android:datePickerStyle">@style/appDatePickerStyle</item>-->
-<!--        <item name="android:buttonBarButtonStyle">@style/buttonBarButtonStyle</item>-->
-    </style>
-
-    <style name="buttonBarButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
-        <item name="android:textColor">@color/theme</item>
-    </style>
-
-    <style name="appDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
-        <item name="android:headerBackground">@color/theme</item>
-        <item name="android:dayOfWeekBackground">@color/theme</item>
-        <item name="android:dayOfWeekTextAppearance">@color/theme</item>
-        <item name="android:headerMonthTextAppearance">@color/theme</item>
-        <item name="android:headerDayOfMonthTextAppearance">@color/theme</item>
-        <item name="android:headerYearTextAppearance">@color/theme</item>
-        <item name="android:yearListItemTextAppearance">@color/theme</item>
-        <item name="android:yearListSelectorColor">@color/theme</item>
-        <item name="android:calendarTextColor">@color/theme</item>
-    </style>
 </resources>
